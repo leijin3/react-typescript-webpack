@@ -1,7 +1,11 @@
-.yarn/cache
-.pnp.*
-.yarn/install-state.gz
+# .yarn/cache
+# .pnp.*
+# .yarn/install-state.gz
+# .yarn/unplugged
 .yarn/unplugged
+.yarn/build-state.yml
+
 node_modules/
+
 
 dist/
