@@ -12,7 +12,7 @@ class App extends React.Component<Record<string, unknown>, undefined> {
       <div className="app">
         <h1>Hello World!</h1>
         <p>Foo to the bar</p>
-        <img src={reactLogo.default} height="480" />
+        <img src={reactLogo} height="480" />
       </div>
     )
   }
