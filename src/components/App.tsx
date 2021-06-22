@@ -4,7 +4,7 @@ import React from 'react'
 
 import {hot} from 'react-hot-loader'
 
-const reactLogo = require('./../assets/img/react_logo.svg')
+import reactLogo from './../assets/img/react_logo.svg'
 
 class App extends React.Component<Record<string, unknown>, undefined> {
   public render() {
