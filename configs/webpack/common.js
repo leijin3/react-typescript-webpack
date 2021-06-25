@@ -10,11 +10,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: [/\.jsx?$/, /\.tsx?$/],
-        use: ['babel-loader'],
-        exclude: /.yarn/,
-      },
-      {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },

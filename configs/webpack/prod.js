@@ -13,5 +13,14 @@ module.exports = merge(commonConfig, {
     publicPath: '/',
   },
   devtool: 'source-map',
+  module: {
+    rules: [
+      {
+        test: [/\.jsx?$/, /\.tsx?$/],
+        use: ['babel-loader'],
+        exclude: /.yarn/,
+      },
+    ],
+  },
   plugins: [],
 })
