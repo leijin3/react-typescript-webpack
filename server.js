@@ -2,8 +2,17 @@ const express = require('express')
 const app = express()
 const portNumber = 3000
 const sourceDir = 'dist'
+const path = require('path')
 
 app.use(express.static(sourceDir))
+
+app.get('/*', function (req, res) {
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'), function (err) {
+    if (err) {
+      res.status(500).send(err)
+    }
+  })
+})
 
 app.listen(portNumber, () => {
   console.log(`Express web server started: http://localhost:${portNumber}`)
