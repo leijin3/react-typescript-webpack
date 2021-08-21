@@ -20,7 +20,7 @@ module.exports = merge(commonConfig, {
     rules: [
       {
         test: [/\.jsx?$/, /\.tsx?$/],
-        use: ['ts-loader'],
+        use: ['babel-loader'],
         exclude: /.yarn/,
       },
     ],

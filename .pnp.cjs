@@ -68,7 +68,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.38.0"],
             ["sass-loader", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:12.1.0"],
             ["style-loader", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:3.2.1"],
-            ["ts-loader", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:9.2.5"],
             ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"],
             ["webpack", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:5.51.1"],
             ["webpack-cli", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:4.8.0"],
@@ -12153,7 +12152,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.38.0"],
             ["sass-loader", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:12.1.0"],
             ["style-loader", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:3.2.1"],
-            ["ts-loader", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:9.2.5"],
             ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"],
             ["webpack", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:5.51.1"],
             ["webpack-cli", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:4.8.0"],
@@ -14166,36 +14164,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["true-case-path", "npm:1.0.3"],
             ["glob", "npm:7.1.7"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["ts-loader", [
-        ["npm:9.2.5", {
-          "packageLocation": "./.yarn/cache/ts-loader-npm-9.2.5-b457758ded-e39fab0caa.zip/node_modules/ts-loader/",
-          "packageDependencies": [
-            ["ts-loader", "npm:9.2.5"]
-          ],
-          "linkType": "SOFT",
-        }],
-        ["virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:9.2.5", {
-          "packageLocation": "./.yarn/__virtual__/ts-loader-virtual-216b58f584/0/cache/ts-loader-npm-9.2.5-b457758ded-e39fab0caa.zip/node_modules/ts-loader/",
-          "packageDependencies": [
-            ["ts-loader", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:9.2.5"],
-            ["@types/typescript", null],
-            ["@types/webpack", null],
-            ["chalk", "npm:4.1.1"],
-            ["enhanced-resolve", "npm:5.8.2"],
-            ["micromatch", "npm:4.0.4"],
-            ["semver", "npm:7.3.5"],
-            ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"],
-            ["webpack", "virtual:c44d3157f0df1f334190fa872dddc03031949b88beb59f1cd72109d125fe6e3b96c3c51f35fe5d25f938d75acca587ca8c17f3b992eb6b062d1765cd056032a8#npm:5.51.1"]
-          ],
-          "packagePeers": [
-            "@types/typescript",
-            "@types/webpack",
-            "typescript",
-            "webpack"
           ],
           "linkType": "HARD",
         }]
